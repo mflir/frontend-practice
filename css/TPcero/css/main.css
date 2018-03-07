@@ -1,0 +1,57 @@
+*{
+	margin: auto;
+}
+
+body{
+	margin: 50px;
+}
+
+.container{
+	border: 1px solid black;
+	padding: 5px;
+	margin: 20px;
+}
+
+.clearfix{
+	overflow: auto;
+}
+
+.imagen{
+	margin: 50px;
+	width: 1100px;
+	height: 440px;
+	background-color: pink;	
+}
+
+.caja{
+	width: 36px;
+	height: 36px;
+	background-color: violet;
+	float: left;
+	margin: 10px;
+}
+
+.cajas{
+	float: right;
+	height: 80px;
+	clear: left;
+	margin-top: 10px;
+	margin: 50px;
+}
+
+h1{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.formText{
+	text-align: center;
+}
+
+
+.footer{
+	text-align: center;
+	margin: 50px;
+	padding: auto;
+	clear: none;
+}
