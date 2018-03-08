@@ -1,0 +1,72 @@
+*{
+	margin: auto;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 40px;
+}
+
+h1{
+	margin-left: 20px;
+	margin-bottom: -10px;
+	margin-top: -5px; 
+}
+
+.container{
+	border: 1px solid black;
+	padding: 10px;
+	margin: 20px;
+}
+
+.menu {
+  	height: 80px;
+  	background-color: #B2D6FF; 
+  	margin: 0px 20px 3px 20px;   /* Medium blue */
+}
+
+.sidebar {
+  	height: 120px;
+  	background-color: #F09A9D;    /* Red */
+	margin: 0px 20px 3px 20px; 
+}
+
+.slider{
+	height: 350px;
+	background-color: pink;
+	margin: 0px 20px 3px 20px; 
+}
+
+.content {
+ 	height: 200px;
+  	background-color: #F5CF8E;    /* Yellow */
+	width: 32%;
+	display: inline-block;
+}
+
+.uno{
+	margin: 0px 0px 3px 20px;
+}
+
+.dos{
+	margin: 0px 3px 3px 0px;
+}
+
+.tres{
+	margin: 0px 20px 0px 0px;
+	float: right;
+}
+
+
+.footer {
+  	height: 70px;
+  	background-color: #D6E9FE;  	    /* Light blue */
+	margin: 0px 20px 3px 20px 
+}
+
+.opciones{
+	float: right;
+	padding-right: 20px;
+	text-align: center;
+}
+
