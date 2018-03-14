@@ -46,10 +46,12 @@ h1{
 
 .uno{
 	margin: 0px 0px 3px 20px;
+	
 }
 
 .dos{
 	margin: 0px 3px 3px 0px;
+	text-align: center;
 }
 
 .tres{
@@ -68,5 +70,50 @@ h1{
 	float: right;
 	padding-right: 20px;
 	text-align: center;
+	padding-top: 30px;
 }
 
+
+.caja{
+	width: 150px;
+	height: 150px;
+	border: 1px solid black;
+	align-content: center;
+	float: left;
+	margin-right: 5px;
+}
+
+.contenido{
+		margin-left: 30px;
+	margin-top: 20px;
+}
+
+
+.contenido-texto{
+	text-align: left;
+}
+
+.opciones a{
+	padding: 7px;
+}
+
+.logo{
+	float: left;
+	padding: 30px;
+}
+
+.contenido-imagen{
+	border: 1px solid black;
+	width: 90px;
+	height: 90px;
+}
+
+.cajauno{
+	float: left;
+	margin: 15px;
+}
+
+.cajados{
+	width: 200px;
+	padding: 20px;
+}
