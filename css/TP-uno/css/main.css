@@ -34,7 +34,8 @@ h1{
 .slider{
 	height: 350px;
 	background-color: pink;
-	margin: 0px 20px 3px 20px; 
+	margin: 0px 20px 3px 20px;
+	padding-top: 20px; 
 }
 
 .content {
@@ -63,7 +64,7 @@ h1{
 .footer {
   	height: 70px;
   	background-color: #D6E9FE;  	    /* Light blue */
-	margin: 0px 20px 3px 20px 
+	margin: 0px 20px 3px 20px; 
 }
 
 .opciones{
@@ -116,4 +117,40 @@ h1{
 .cajados{
 	width: 200px;
 	padding: 20px;
+	text-align: center;
+}
+
+.cajatres{
+	float: right;
+	width: 200px;
+	height: 100px;
+	margin: -20px;
+	margin-right: -50px;
+}
+.redes{
+	border: 1px solid black;
+	width: 35px;
+	height: 35px;
+	margin: 2px;
+	float: left;
+
+}
+
+.imagengrande{
+	width: 95%;
+	text-align: center;
+	height: 310px;
+	border: 1px solid black;
+	margin: auto;
+}
+
+.contenido-redes{
+	float: right;	
+	margin-right: 20px;
+	margin-top: -20px;
+	height: 70px;
+}
+
+.mail{
+	margin-left: 20px;
 }
