@@ -1,0 +1,58 @@
+*{
+	margin: auto;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url('../img/fondo.png');
+}
+
+.container{
+	width: 80%;
+	background: white;
+}
+
+header{
+	background-image: url('../img/header.png');
+	height: 450px;
+	background-size: 100%;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	background: #fae592;
+	padding: 10px;
+}
+
+li{
+	display: inline;
+}
+
+img{
+	width: 163px;
+	height: 240px;
+}
+
+.dos{
+	display: inline-block;
+}
+
+section{
+	float: left;
+	background: #fae592;
+	margin: 30px;
+	padding: 20px;
+}
+
+.uno{
+	display: inline-block;
+}
+
+button{
+	margin: 5px;
+}
+
+h1{
+	padding: 20px;
+}
