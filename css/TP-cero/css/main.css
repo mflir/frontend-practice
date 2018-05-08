@@ -1,15 +1,18 @@
 *{
 	margin: auto;
+	box-sizing: border-box;
 }
 
 body{
 	margin: 50px;
+	background-image: url('../img/hermoso.jpg');
 }
 
 .container{
 	border: 1px solid black;
 	padding: 5px;
 	margin: 20px;
+	background-color: pink; 
 }
 
 .clearfix{
@@ -17,10 +20,12 @@ body{
 }
 
 .imagen{
-	margin: 50px;
-	width: 1100px;
-	height: 440px;
-	background-color: pink;	
+	width: 95%;
+	height: 500px;
+	background-color: white;
+	text-align: center;	
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .caja{
@@ -29,6 +34,7 @@ body{
 	background-color: violet;
 	float: left;
 	margin: 10px;
+	background-color: pink; 
 }
 
 .cajas{
@@ -54,4 +60,9 @@ h1{
 	margin: 50px;
 	padding: auto;
 	clear: none;
+}
+
+.caja img{
+	width: 36px;
+	height: 36px;
 }
