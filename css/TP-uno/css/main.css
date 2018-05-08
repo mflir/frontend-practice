@@ -5,6 +5,7 @@
 
 body{
 	margin: 40px;
+	background-image: url('../img/fondo.jpg');
 }
 
 h1{
@@ -17,6 +18,7 @@ h1{
 	border: 1px solid black;
 	padding: 10px;
 	margin: 20px;
+	background: white;
 }
 
 .menu {
