@@ -1,15 +1,57 @@
+*{
+	margin: auto;
+	padding: 0;
+	box-sizing: border-box;
+}
 
 body{
-	margin: 20px;
+	background-image: url("../img/fondo.jpg"); 
+	background-size: 100%; 
+	font-family: 'Roboto', sans-serif;
+	color: black;
+}
+
+
+h1{
+	margin: 10px; 
+}
+
+.container{
+	width: 45%;
+	margin-right: 100px;
+	margin-top: 60px;
+	float: right;
+	background-color: white; 
+	padding: 30px;
+}
+
+
+.yo{
+	display: inline;
+}
+
+input{
+	margin-right: 5px;
+}
+
+.tu{
+	margin-top: 20px; 
+}
+
+.email{
+	width: 335px;	
 }
 
 form{
-	margin: 20px;
-	border: solid;
-	border-color: black;
-	padding: 50px;
+	margin-top: 20px;
 }
 
+.botones{
+	margin-top: 40px;
+	float: right;
+}
 
-
+.el{
+	margin-bottom: 10px;
+}
 

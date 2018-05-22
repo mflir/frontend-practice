@@ -4,53 +4,52 @@
 		<meta charset="UTF-8">
 		<title>Formulario</title>
 		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	</head>
 	<body>
-		<h1>Untitled Page</h1>
-		<form action="#" method="get">
-			<div class="text">
-				<label for="name">Nombre</label>
-				<br>
-				<input type="text" id="name" />
-			</div>
-			<div class="text">
-				<label for="apellido">Apellido</label>
-				<br>
-				<input type="text" id="apellido"/>
-			</div>
-			
-			<div class="text">
-				<label for="mail">Email</label>
-				<br>
-				<input type="email" id="mail" />
-			</div>
-			<div class="radio">
-				<p>Genero</p>
-				<input type="radio" name="genero" value="Femenino" checked> Femenino
-				<input type="radio" name="genero" value="Masculino"> Masculino
-			</div>
-			<div class="select">
-				<p>Nacionalidad</p>
-				<select name="select">
-					<option value="value1" selected>Argentina</option>
-					<option value="value2">Uruguay</option>
-					<option value="value3">Brasil</option>
-				</select>
-				<div class="chekbox">
-					<p>Temas que le interesan</p>
-					<input type="checkbox" id="cbox1" value="infrastructura"> Infrastuctura <br>
-					<input type="checkbox" id="cbox2" value="programacion_web"> Programacion web <br>
-					<input type="checkbox" id="cbox3" value="programcion_mobile"> Programacion mobile
+		<div class="container">
+			<h1>Contact Form</h1>
+			<p>Please fill in your infomation and we'll be sending your order in no time.</p>
+			<br>
+			<hr>
+			<form>
+				<div class="text-name tu">
+					<p class="yo">Your Name: </p>
+					<input type="text" id="first-name" placeholder="First Name" />
+					<input type="text" id="last-name" placeholder="Last Name" />
+				</div>
+				<div class="text-mail tu">
+					<p class="yo">Your Email: </p>
+					<input class="email" type="text" id="email" placeholder="hello@hello.com" />
+				</div>
+				<div class="select tu">
+					<p class="yo">Nacionalidad</p>
+					<select name="select">
+						<option class="yo" value="value1" selected>Argentina</option>
+						<option class="yo" value="value2">Uruguay</option>
+						<option class="yo" value="value3">Brasil</option>
+					</select>
+				</div>
+				<div class="radio tu">
+					<p class="yo">Genero: </p>
+					<input type="radio" name="genero" value="Femenino" checked> Femenino
+					<input type="radio" name="genero" value="Masculino"> Masculino
+				</div>
+				<div class="chekbox tu">
+					<p class="tu el">Temas que le interesan: </p>
+					<input  type="checkbox" id="cbox1" value="infrastructura"> Infrastuctura <br>
+					<input  type="checkbox" id="cbox2" value="programacion_web"> Programacion web <br>
+					<input  type="checkbox" id="cbox3" value="programcion_mobile"> Programacion mobile
 				</div>
 				<br>
-				<div class="terminos">
-					<input type="checkbox" id="cbox4" value="acepta"> Acepta los terminos y condiciones <br>
-					<br>
-					<input type="submit" value="Cancelar">
-					<input type="submit" value="Aceptar">
+				<div class="terminos tu">
+					<input type="checkbox" id="cbox4" value="acepta"> Acepta los terminos y condiciones
 				</div>
+			<div class="botones">
+				<input type="submit" value="Cancelar">
+				<input type="submit" value="Aceptar">
 			</div>
 		</form>
-		
-	</body>
+	</div>
+</body>
 </html>
